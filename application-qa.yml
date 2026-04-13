@@ -1,0 +1,3 @@
+app:
+  jwt:
+    secret: qaSecretKeyThatIsAtLeast32CharactersLongForHS256Algorithm456

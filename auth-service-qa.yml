@@ -4,6 +4,3 @@ spring:
     username: qa_user
     password: qa_password
 
-app:
-  jwt:
-    secret: qaSecretKeyThatIsAtLeast32CharactersLongForHS256Algorithm456

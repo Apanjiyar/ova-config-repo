@@ -1,0 +1,3 @@
+app:
+  jwt:
+    secret: prodSecretKeyThatIsAtLeast32CharactersLongForHS256Algorithm789

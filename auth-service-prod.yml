@@ -4,6 +4,3 @@ spring:
     username: prod_user
     password: prod_password
 
-app:
-  jwt:
-    secret: prodSecretKeyThatIsAtLeast32CharactersLongForHS256Algorithm789
