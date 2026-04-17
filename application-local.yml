@@ -2,3 +2,15 @@ app:
   jwt:
     secret: C273EE912296BBAD87849CA66390A4D37E27C0F53C82D723325E3488579E41B2
     expiration-time-ms: 3600000
+
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      timeout: 60000
+
+redis:
+  keys:
+    blacklist-token: auth:token:blacklist
+    user-info: auth:user
